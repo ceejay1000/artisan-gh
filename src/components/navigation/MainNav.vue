@@ -42,6 +42,7 @@
       >
         <router-link to="/artisans">
         Artisans
+        <v-icon>mdi-tools</v-icon>
       </router-link>
       </v-btn>
       <v-btn
