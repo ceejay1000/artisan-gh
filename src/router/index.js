@@ -4,6 +4,7 @@ import Home from '../views/Home.vue'
 import Login from "../views/Login.vue"
 import Register from "../views/Register.vue"
 import Particulars from "../views/RegistrationRoutes/Particulars.vue"
+import ProfilePhoto from "../views/RegistrationRoutes/ProfilePhoto.vue"
 
 Vue.use(VueRouter)
 
@@ -23,7 +24,8 @@ const routes = [
     name: "Register",
     component: Register,
     children: [
-      { path: "particulars", component: Particulars }
+      { path: "particulars", component: Particulars },
+      { path: "profile-photo", component: ProfilePhoto }
     ]
   },
   {

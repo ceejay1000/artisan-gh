@@ -49,7 +49,7 @@
       outlined
       color="white"
       >
-        <router-link to="/register">
+        <router-link to="/register/particulars">
           <span>Register</span>
           <v-icon>mdi-register</v-icon>
         </router-link>
